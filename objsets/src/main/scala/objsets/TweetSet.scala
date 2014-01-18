@@ -139,7 +139,7 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
     else left.filterAcc(p, right.filterAcc(p, acc))
 
   def union(that: TweetSet): TweetSet =
-    remove(elem).union(that.incl(elem))
+    left.union(right.union(that.incl(elem)))
     
 
   def mostRetweeted: Tweet = {
