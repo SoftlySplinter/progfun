@@ -1,18 +1,18 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/softly/coursera/progfun/objsets/project/}default-c103db...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-c103db;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/softly/git/progfun/objsets/project/}default-b0de5c...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-b0de5c;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.databinder#dispatch-http_2.9.2;0.8.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.databinder#dispatch-http_2.9.2;0.8.8 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.databinder#dispatch-http_2.9.2;0.8.8[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: net.databinder#dispatch-http_2.9.2;0.8.8[0m
 [0m[[0mdebug[0m] [0m	found net.databinder#dispatch-http_2.9.2;0.8.8 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving net.databinder#dispatch-core_2.9.2;0.8.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.databinder#dispatch-core_2.9.2;0.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -96,8 +96,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdon't use cache for org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT: changing=true[0m
@@ -119,8 +119,8 @@
 [0m[[0mdebug[0m] [0m		=> http://namin.github.com/maven-repository/org/scalastyle/scalastyle_2.9.1/0.1.3-SNAPSHOT/scalastyle_2.9.1-0.1.3-20120926.114741-1.pom (0.1.3-SNAPSHOT)[0m
 [0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scalariform#scalariform_2.9.1;0.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalariform#scalariform_2.9.1;0.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -159,15 +159,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->com.github.scopt#scopt_2.9.1;2.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->com.github.scopt#scopt_2.9.1;2.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving cc.spray#spray-json_2.9.2;1.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: cc.spray#spray-json_2.9.2;1.1.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: cc.spray#spray-json_2.9.2;1.1.1[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: cc.spray#spray-json_2.9.2;1.1.1[0m
 [0m[[0mdebug[0m] [0m	found cc.spray#spray-json_2.9.2;1.1.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.parboiled#parboiled-scala;1.0.2 [compile->master(*)][0m
@@ -201,30 +201,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.parboiled#parboiled-scala;1.0.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.parboiled#parboiled-scala;1.0.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.9.2;1.9.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.9.2;1.9.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.9.2;1.9.1[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scalatest#scalatest_2.9.2;1.9.1[0m
 [0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.9.2;1.9.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.1[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.apache.commons#commons-lang3;3.1[0m
 [0m[[0mdebug[0m] [0m	found org.apache.commons#commons-lang3;3.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0[0m
@@ -250,11 +250,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -295,10 +295,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->compile(*)][0m
@@ -323,10 +323,10 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.parboiled#parboiled-scala;1.0.2 [compile->master(*)][0m
@@ -348,20 +348,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.parboiled#parboiled-core;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -372,12 +372,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -418,10 +418,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->compile(*)][0m
@@ -446,10 +446,10 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.parboiled#parboiled-scala;1.0.2 [compile->master(*)][0m
@@ -471,20 +471,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.parboiled#parboiled-core;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -495,8 +495,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.12.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.12.4[0m
@@ -1013,18 +1013,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -1065,10 +1065,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->compile(*)][0m
@@ -1093,10 +1093,10 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.parboiled#parboiled-scala;1.0.2 [compile->master(*)][0m
@@ -1118,20 +1118,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.parboiled#parboiled-core;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -1141,9 +1141,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-sbt#main;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#main;0.12.4->org.scala-sbt#actions;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#actions;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)][0m
@@ -1461,17 +1461,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -1512,10 +1512,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->compile(*)][0m
@@ -1540,10 +1540,10 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.parboiled#parboiled-scala;1.0.2 [compile->master(*)][0m
@@ -1565,20 +1565,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.parboiled#parboiled-core;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -1588,15 +1588,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->net.databinder#dispatch-core_2.9.2;0.8.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-core_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -1637,10 +1637,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.databinder#dispatch-http_2.9.2;0.8.8->org.apache.httpcomponents#httpclient;4.1.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->net.databinder#dispatch-http_2.9.2;0.8.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT->org.scalariform#scalariform_2.9.1;0.1.1 [compile->compile(*)][0m
@@ -1665,10 +1665,10 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.9.1;2.0.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies cc.spray#spray-json_2.9.2;1.1.1->org.parboiled#parboiled-scala;1.0.2 [compile->master(*)][0m
@@ -1690,20 +1690,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.parboiled#parboiled-core;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-scala;1.0.2->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->cc.spray#spray-json_2.9.2;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.9.2;1.9.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scalatest#scalatest_2.9.2;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -1713,9 +1713,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-sbt#main;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#main;0.12.4->org.scala-sbt#actions;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#actions;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)][0m
@@ -2033,19 +2033,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-c103db;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b0de5c;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-c103db;0.1-SNAPSHOT [pom][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/default/default-c103db/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b0de5c;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/default/default-b0de5c/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.databinder#dispatch-http_2.9.2;0.8.8!dispatch-http_2.9.2.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle_2.9.1;0.1.3-SNAPSHOT!scalastyle_2.9.1.jar[0m
@@ -2106,18 +2106,18 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4170ms :: artifacts dl 98ms[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT compile produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT runtime produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT test produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT provided produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT optional produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT compile-internal produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT runtime-internal produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT test-internal produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT plugin produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT sources produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT docs produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-c103db;0.1-SNAPSHOT pom produced in /home/softly/coursera/progfun/objsets/project/target/resolution-cache/reports/default-default-c103db-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4170ms resolve - 98ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4938ms :: artifacts dl 150ms[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT compile produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT runtime produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT test produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT provided produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT optional produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT compile-internal produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT runtime-internal produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT test-internal produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT plugin produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT sources produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT docs produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b0de5c;0.1-SNAPSHOT pom produced in /home/softly/git/progfun/objsets/project/target/resolution-cache/reports/default-default-b0de5c-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (4938ms resolve - 150ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

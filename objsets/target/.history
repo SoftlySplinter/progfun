@@ -1,1 +1,16 @@
 run
+test
+compile
+test
+last assignment/test:test
+compile
+last assignment/test:test
+test
+run
+test
+submit
+last assignment/*:submit
+submit yEwKkP8ccH
+submit alex@alexanderdbrown.com yEwKkP8ccH
+run
+submit alex@alexanderdbrown.com yEwKkP8ccH

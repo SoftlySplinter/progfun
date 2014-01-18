@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/softly/coursera/progfun/objsets/}assignment...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/softly/git/progfun/objsets/}assignment...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: progfun-objsets#progfun-objsets_2.10;1.0.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -203,25 +203,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for progfun-objsets#progfun-objsets_2.10;1.0.0 [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for progfun-objsets#progfun-objsets_2.10;1.0.0 [pom][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/progfun-objsets/progfun-objsets_2.10/1.0.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/softly/git/progfun/objsets/target/resolution-cache/progfun-objsets/progfun-objsets_2.10/1.0.0/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 252ms :: artifacts dl 57ms[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 compile produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 runtime produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 test produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 provided produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 optional produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 compile-internal produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 runtime-internal produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 test-internal produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 plugin produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 sources produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 docs produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 pom produced in /home/softly/coursera/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (252ms resolve - 57ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 232ms :: artifacts dl 59ms[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 compile produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 runtime produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 test produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 provided produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 optional produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 compile-internal produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 runtime-internal produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 test-internal produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 plugin produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 sources produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 docs produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 pom produced in /home/softly/git/progfun/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (232ms resolve - 59ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
