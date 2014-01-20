@@ -40,7 +40,11 @@ class HuffmanSuite extends FunSuite {
   }
 
   test("singleton of nil") {
-    assert(singleton(null) === false)
+    assert(singleton(List[CodeTree]()) === false)
+  }
+
+  test("combine singleton or nil") {
+    assert(combine(List[CodeTree]()) === List[CodeTree]())
   }
 
   test("decode and encode a very short text should be identity") {

@@ -96,7 +96,7 @@ object Huffman {
    * Checks whether the list `trees` contains only one single code tree.
    */
   def singleton(trees: List[CodeTree]): Boolean = 
-    if( trees == null ) false
+    if( trees.isEmpty ) false
     else trees.size == 1
 
   /**
@@ -112,7 +112,7 @@ object Huffman {
    * unchanged.
    */
   def combine(trees: List[CodeTree]): List[CodeTree] = 
-    if( singleton(trees) ) trees
+    if( trees.isEmpty || singleton(trees) ) trees
     else (makeCodeTree(trees(0), trees(1)) +: trees.slice(2, trees.length)).sortWith(weight(_) < weight(_))
 
   /**
